@@ -9,7 +9,7 @@ uint32_t counter = 0;
 void setup()
 {
     LED_Init();
-    Serial.begin(9600);
+    Serial.begin(115200);
     temperature_init();
 }
 
